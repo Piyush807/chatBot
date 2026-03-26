@@ -2,11 +2,13 @@ FROM eclipse-temurin:17-jdk
 
 WORKDIR /app
 
-# Copy all project files
 COPY . .
 
-# Build the project
+# 🔥 IMPORTANT FIX
+RUN chmod +x mvnw
+
+# Build project
 RUN ./mvnw clean package -DskipTests
 
-# Run the jar
+# Run app
 CMD ["java", "-jar", "target/chatBot-0.0.1-SNAPSHOT.jar"]
