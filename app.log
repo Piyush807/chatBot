@@ -1,0 +1,17 @@
+2026-03-26T13:25:11.292+05:30  INFO 20188 --- [chatBot] [main] com.piyush.chatbot.ChatBotApplication    : Starting ChatBotApplication using Java 25.0.2 with PID 20188 (C:\Users\Piyush\IdeaProjects\chatBot\target\classes started by Piyush in C:\Users\Piyush\IdeaProjects\chatBot)
+2026-03-26T13:25:11.295+05:30  INFO 20188 --- [chatBot] [main] com.piyush.chatbot.ChatBotApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-03-26T13:25:12.206+05:30  INFO 20188 --- [chatBot] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-03-26T13:25:12.222+05:30  INFO 20188 --- [chatBot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-26T13:25:12.223+05:30  INFO 20188 --- [chatBot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-26T13:25:12.284+05:30  INFO 20188 --- [chatBot] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 929 ms
+2026-03-26T13:25:12.658+05:30  INFO 20188 --- [chatBot] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-03-26T13:25:12.663+05:30  INFO 20188 --- [chatBot] [main] com.piyush.chatbot.ChatBotApplication    : Started ChatBotApplication in 1.999 seconds (process running for 2.578)
+2026-03-26T13:25:42.718+05:30  INFO 20188 --- [chatBot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-26T13:25:42.718+05:30  INFO 20188 --- [chatBot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-26T13:25:42.720+05:30  INFO 20188 --- [chatBot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-03-26T13:25:42.904+05:30  INFO 20188 --- [chatBot] [http-nio-8080-exec-1] c.p.c.controller.WebhookController       : Incoming message: hi
+2026-03-26T13:25:42.904+05:30  INFO 20188 --- [chatBot] [http-nio-8080-exec-1] c.p.c.controller.WebhookController       : Reply sent: Hello
+2026-03-26T13:25:51.504+05:30  INFO 20188 --- [chatBot] [http-nio-8080-exec-3] c.p.c.controller.WebhookController       : Incoming message: bye
+2026-03-26T13:25:51.504+05:30  INFO 20188 --- [chatBot] [http-nio-8080-exec-3] c.p.c.controller.WebhookController       : Reply sent: Goodbye
+2026-03-26T13:26:13.459+05:30  INFO 20188 --- [chatBot] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-26T13:26:13.466+05:30  INFO 20188 --- [chatBot] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
